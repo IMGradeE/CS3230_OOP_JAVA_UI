@@ -29,8 +29,8 @@ public class BouncingObjectSimulatorTest {
         BouncingObjectSimulator simulator = new BouncingObjectSimulator();
         Rectangle2D bounds = new Rectangle2D.Double(0, 0, 100, 100);
 
-        simulator.setX(98);
-        simulator.setY(98);
+        simulator.setX(95);
+        simulator.setY(95);
 
         simulator.move(bounds);
 

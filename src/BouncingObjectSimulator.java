@@ -14,6 +14,16 @@ public class BouncingObjectSimulator {
         var lbounds = bounds.getMinX();
         var tbounds = bounds.getMaxY();
         var bbounds = bounds.getMinY();
+        if(dx < 0){
+            this.x -= CIRCLE_RADIUS;
+        }else{
+            this.x += CIRCLE_RADIUS;
+        }
+        if(dy < 0){
+            this.y -= CIRCLE_RADIUS;
+        }else{
+            this.y += CIRCLE_RADIUS;
+        }
         this.x += this.dx;
         this.y += this.dx;
         if (rbounds <= this.x || lbounds >= this.x){ // These conditions being 'or equal' makes more sense to me.
