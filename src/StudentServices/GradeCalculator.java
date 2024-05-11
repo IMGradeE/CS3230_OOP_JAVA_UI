@@ -1,3 +1,5 @@
+package StudentServices;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -24,8 +26,8 @@ public class GradeCalculator {
             int aCount = 0, bCount = 0, cCount = 0, dCount = 0, fCount = 0;// This is stupid
             for (Student student : n) {
                 String name = student.getName();
-                String id = student.getId();
-                float avg = student.getAvg();
+                int id = student.getId();
+                double avg = student.getAvg();
                 char letterGrade = student.getLetterGrade();
                 switch (letterGrade) {
                     case 'A':
@@ -54,8 +56,8 @@ public class GradeCalculator {
                 System.out.printf(columnWidth, name, id, String.format("%.2f", avg), letterGrade);
             }
             System.out.println("\nClass Statistics:");
-            System.out.println("Highest Average Grade: " + String.format("%.2f", highScore) + " (Student: " + highScoreName + ")" );
-            System.out.println("Lowest Average Grade: "+ String.format("%.2f", lowScore) + " (Student: " + lowScoreName + ")" );
+            System.out.println("Highest Average Grade: " + String.format("%.2f", highScore) + " (StudentServices.Student: " + highScoreName + ")" );
+            System.out.println("Lowest Average Grade: "+ String.format("%.2f", lowScore) + " (StudentServices.Student: " + lowScoreName + ")" );
             System.out.println();
 
             System.out.println("Grade Distribution: \n");
@@ -114,7 +116,7 @@ public class GradeCalculator {
                         break;
                     case 1:
                         System.out.println("Enter student ID: ");
-                        student.setId(studentInfo);
+                        student.setId(scanner.nextInt());
                         break;
                     case 2:
                         System.out.println("Enter student grades (three scores separated by spaces): ");
@@ -122,7 +124,7 @@ public class GradeCalculator {
                         break;
                 }
             }
-            System.out.println("\nStudent Information: ");
+            System.out.println("\nStudentServices.Student Information: ");
             System.out.println("\tName: "+ student.getName());
             System.out.println("\tID: "+ student.getId());
             System.out.printf("\tAverage Score: %.2f \n", student.getAvg());
