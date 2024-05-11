@@ -24,23 +24,28 @@ public class StockMarket {
         Stocks.add(stock);
         StocksMap.put(stock.getSymbol(), stock);
     }
-    public static double buyStock(String symbol, int quantity){
+    public static void buyStock(String symbol, int quantity){
         Stock stock = StocksMap.get(symbol);
         stock.reportPurchase(quantity); // increase the number of outstanding shares
-        return stock.getCurrentPrice()*quantity; // return positive amount of purchase
     }
-    public static double sellStock(String symbol, int quantity){
+    public static void sellStock(String symbol, int quantity){
         Stock stock = StocksMap.get(symbol);
         stock.reportSale(quantity); // decrease the number of outstanding shares
-        return stock.getCurrentPrice()*quantity; // return positive amount of sale
     }
-    public  void calculatePortfolioValue(){
-        // TODO
+    public static double calculatePortfolioValue(Map<Stock, Integer> portfolio){
+        double portfolioValue = 0;
+        for (Map.Entry<Stock, Integer> entry : portfolio.entrySet()){
+            Integer qty = entry.getValue();
+            double currentPrice = entry.getKey().getCurrentPrice();
+            portfolioValue += (double) qty*currentPrice;
+        }
+        return portfolioValue;
     }
     public void simulateMarketChanges(){
         for (Stock s : Stocks){
-            double changePercentageCoeff = 1 +(random.nextDouble()-.5)*2.0;
-            s.setCurrentPrice(s.getCurrentPrice()*changePercentageCoeff);
+            double changePercentageCoeff = ((random.nextDouble()-.5)*2.0)/100.0; // bounds [-0.01, 0.01]
+            double currentPrice = s.getCurrentPrice();
+            s.setCurrentPrice(currentPrice+(currentPrice*changePercentageCoeff));
         }
     }
 

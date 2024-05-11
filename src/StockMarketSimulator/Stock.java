@@ -43,8 +43,7 @@ public class Stock {
 
     @Override
     public String toString() {
-        String s = String.format("%-20s\n%-20s\n%.2f", symbol, companyName,  currentPrice);
-        return s;
+        return String.format("%s (%s): $%.2f", symbol, companyName,  currentPrice);
     }
 
     //  TODO add tostring

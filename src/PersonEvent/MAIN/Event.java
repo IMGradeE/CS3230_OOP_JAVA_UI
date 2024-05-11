@@ -1,0 +1,77 @@
+package PersonEvent.MAIN;
+
+import BouncingObject.BouncingObjectSimulator;
+
+import java.awt.geom.Rectangle2D;
+
+public class Event {
+    // TODO:
+    public Event(){
+        x = 0;
+        y = 0;
+        dx = 2;
+        dy = 2;
+    }
+
+    public void move(Rectangle2D bounds) // Rectangle dimensions are the movement boundaries.
+    {
+        var rbounds = bounds.getMaxX();
+        var lbounds = bounds.getMinX();
+        var tbounds = bounds.getMaxY();
+        var bbounds = bounds.getMinY();
+        if(dx < 0){
+            this.x -= CIRCLE_RADIUS;
+        }else{
+            this.x += CIRCLE_RADIUS;
+        }
+        if(dy < 0){
+            this.y -= CIRCLE_RADIUS;
+        }else{
+            this.y += CIRCLE_RADIUS;
+        }
+        this.x += this.dx;
+        this.y += this.dx;
+        if (rbounds <= this.x || lbounds >= this.x){ // These conditions being 'or equal' makes more sense to me.
+            this.dx = -this.dx;
+        }
+        if (tbounds <= this.y || bbounds >= this.y){
+            this.dy = -this.dy;
+        }
+    }
+
+    private double x, y, dx, dy;
+    public static final int CIRCLE_RADIUS = 3;
+
+
+    public double getX() {
+        return x;
+    }
+
+    public void setX(double x) {
+        this.x = x;
+    }
+
+    public double getY() {
+        return y;
+    }
+
+    public void setY(double y) {
+        this.y = y;
+    }
+
+    public double getDx() {
+        return dx;
+    }
+
+    public void setDx(double dx) {
+        this.dx = dx;
+    }
+
+    public double getDy() {
+        return dy;
+    }
+
+    public void setDy(double dy) {
+        this.dy = dy;
+    }
+}
