@@ -1,3 +1,5 @@
+package MiscSolutionClasses;
+
 import java.util.Scanner;
 
 public class SumIfNotZeroOrSequentialDupe
