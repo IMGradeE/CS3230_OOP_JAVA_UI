@@ -64,6 +64,6 @@ class Triangle extends Shape {
 }
 
 interface Resizable{
-    public void resize(double scalar) throws IllegalArgumentException;
+    void resize(double scalar) throws IllegalArgumentException;
 }
 
