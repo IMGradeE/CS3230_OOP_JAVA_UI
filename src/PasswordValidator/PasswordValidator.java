@@ -44,6 +44,7 @@ class PasswordValidatorLogic {
     private static final Pattern patternD = Pattern.compile("^.*\\p{Punct}++.*$");
 
     public void validatePassword(String password) throws InvalidPasswordException {
+        
         if (password.length() < 8) {
             throw new InvalidPasswordException("Password must be at least 8 characters");
         } else if (!patternA.matcher(password).matches()){
