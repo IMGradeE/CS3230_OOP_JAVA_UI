@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="314722da-9671-448e-9dfe-327bb28d9c68" name="Changes" comment="Completed Challenge Activity 4">
+      <change afterPath="$PROJECT_DIR$/src/CAModule4/values" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUIFundamentals/main/DrawingFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUIFundamentals/main/SettingsDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUIFundamentals/main/SimulatorParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUIFundamentals/test/DrawingFrameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUIFundamentals/test/SettingsDialogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUIFundamentals/test/SimulatorParametersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUIFundamentals/test/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/Inventory/Electronics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/Inventory/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/Inventory/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/Inventory/InventorySystemDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/Inventory/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/Inventory/Saleable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/PersonEvent/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/PersonEvent/EventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/PersonEvent/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/Tests/EventTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/Tests/InventoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/Tests/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryAndEvents/Tests/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PasswordValidator/input" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PasswordValidator/input2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PasswordValidator/input3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserFriendlyGUI/Main/AuctionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserFriendlyGUI/Main/AuctionSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserFriendlyGUI/Main/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserFriendlyGUI/Main/EventComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserFriendlyGUI/Main/EventComponentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserFriendlyGUI/Main/EventRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserFriendlyGUI/Main/EventRunnableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserFriendlyGUI/Main/EventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserFriendlyGUI/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonEvent/MAIN/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonEvent/MAIN/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StockMarketSimulator/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StockMarketSimulator/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StockMarketSimulator/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StockMarketSimulator/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IMGradeE&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IMGradeE/CS3230_OOP_JAVA_UI.git&quot;,
+    &quot;accountId&quot;: &quot;94aaf3c7-3883-41d1-9bc9-40a212124133&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17/lib/src.zip!/java.base/java/lang/Throwable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17/lib/src.zip!/java.base/java/util/regex/Matcher.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17/lib/src.zip!/java.desktop/java/awt/Color.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17/lib/src.zip!/java.desktop/java/awt/Graphics.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17/lib/src.zip!/java.desktop/java/awt/event/ActionListener.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17/lib/src.zip!/java.desktop/javax/swing/JComponent.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2g9N5K3Q2CYnfXVDg0UE3IZWDBu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BouncingObjectTest.executor": "Run",
+    "Application.CAModule3.executor": "Run",
+    "Application.CAModule4a.executor": "Run",
+    "Application.DrawingFrame.executor": "Run",
+    "Application.Generic.executor": "Run",
+    "Application.GradeCalculator.executor": "Run",
+    "Application.InventorySystemDriver.executor": "Run",
+    "Application.LAModule3A.executor": "Run",
+    "Application.LAModule3B.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PasswordValidatorRedirected.executor": "Run",
+    "Application.ReciprocalSum.executor": "Debug",
+    "Application.Sample.executor": "Run",
+    "Application.StockMarketSimulation.executor": "Run",
+    "Application.SumIfNotZeroOrSequentialDupe.executor": "Debug",
+    "Application.ThreadTerminationExample.executor": "Debug",
+    "Application.UniqueLetters.executor": "Run",
+    "Application.Unnamed.executor": "Run",
+    "Application.playground.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JAR Application.Unnamed.executor": "Run",
+    "JUnit.All in CSFlex3230.executor": "Run",
+    "JUnit.AuctionSystemTest.executor": "Run",
+    "JUnit.DrawablePersonTest.executor": "Run",
+    "JUnit.DrawingFrameTest.testDefaultShapeSelection.executor": "Run",
+    "JUnit.EventTest.testGetX.executor": "Run",
+    "JUnit.EventTests.executor": "Run",
+    "JUnit.GUIFundamentals.test in CS3230_OOP_JAVA_UI.executor": "Run",
+    "JUnit.InheritanceAndInterface.Tests in CS3230_OOP_JAVA_UI.executor": "Run",
+    "JUnit.InventoryAndEvents.Tests in CS3230_OOP_JAVA_UI.executor": "Run",
+    "JUnit.InventoryTest.executor": "Run",
+    "JUnit.PersonComponentTest.executor": "Run",
+    "JUnit.PersonComponentTest.paintComponent_ShouldInvokeDrawOnEachPerson.executor": "Run",
+    "JUnit.PersonTest.executor": "Run",
+    "JUnit.PersonTests.executor": "Run",
+    "JUnit.Unnamed.executor": "Run",
+    "JUnit.UserInputValidationTest.executor": "Run",
+    "Maven.CSFlex3230.executor": "Run",
+    "Maven.Unnamed.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last.edited.regexp": "",
+    "last_opened_file_path": "C:/Users/wilke/IdeaProjects/CS3230_OOP_JAVA_UI/src/UserFriendlyGUI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.splitter.proportion": "0.20324261",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="BookLibrary" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wilke\IdeaProjects\CS3230_OOP_JAVA_UI\src\UserFriendlyGUI" />
+      <recent name="C:\Users\wilke\IdeaProjects\CS3230_OOP_JAVA_UI\src\GUIFundamentals" />
+      <recent name="C:\Users\wilke\IdeaProjects\CS3230_OOP_JAVA_UI\src\InventoryAndEvents\Test" />
+      <recent name="C:\Users\wilke\IdeaProjects\CS3230_OOP_JAVA_UI\src\InventoryAndEvents" />
+      <recent name="C:\Users\wilke\IdeaProjects\CS3230_OOP_JAVA_UI\src\InheritanceAndInterface\Main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wilke\IdeaProjects\CS3230_OOP_JAVA_UI\src\InventoryAndEvents\Tests" />
+      <recent name="C:\Users\wilke\IdeaProjects\CS3230_OOP_JAVA_UI\src\CAModule4" />
+      <recent name="C:\Users\wilke\IdeaProjects\CS3230_OOP_JAVA_UI\src\InheritanceAndInterface\Tests" />
+      <recent name="C:\Users\wilke\IdeaProjects\CS3230_OOP_JAVA_UI" />
+      <recent name="C:\Users\wilke\IdeaProjects\CS3230_OOP_JAVA_UI\src\InheritanceAndInterface\tests" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AuctionSystemTest">
+    <configuration name="CAModule3" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="InheritanceAndInterface.Main.CAModule3" />
+      <module name="CS3230_OOP_JAVA_UI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/InheritanceAndInterface" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrawingFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUIFundamentals.main.DrawingFrame" />
+      <module name="CS3230_OOP_JAVA_UI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUIFundamentals.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordValidatorRedirected" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PasswordValidator.PasswordValidator" />
+      <module name="CS3230_OOP_JAVA_UI" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/src/PasswordValidator/input2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordValidatorRedirected" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PasswordValidator.PasswordValidator" />
+      <module name="CS3230_OOP_JAVA_UI" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/src/PasswordValidator/input2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="playground" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playground" />
+      <module name="CS3230_OOP_JAVA_UI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuctionSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS3230_OOP_JAVA_UI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UserFriendlyGUI.Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UserFriendlyGUI.Main" />
+      <option name="MAIN_CLASS_NAME" value="UserFriendlyGUI.Main.AuctionSystemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BouncingObjectSimulatorTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="CS3230_OOP_JAVA_UI" />
+      <option name="PACKAGE_NAME" value="BouncingObject" />
+      <option name="MAIN_CLASS_NAME" value="BouncingObject.BouncingObjectSimulatorTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BouncingObjectSimulatorTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="CS3230_OOP_JAVA_UI" />
+      <option name="PACKAGE_NAME" value="BouncingObject" />
+      <option name="MAIN_CLASS_NAME" value="BouncingObject.BouncingObjectSimulatorTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrawingFrameTest.testDefaultShapeSelection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS3230_OOP_JAVA_UI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUIFundamentals.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GUIFundamentals.test" />
+      <option name="MAIN_CLASS_NAME" value="GUIFundamentals.test.DrawingFrameTest" />
+      <option name="METHOD_NAME" value="testDefaultShapeSelection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventTests" type="JUnit" factoryName="JUnit">
+      <module name="CS3230_OOP_JAVA_UI" />
+      <option name="PACKAGE_NAME" value="PersonEvent.TEST" />
+      <option name="MAIN_CLASS_NAME" value="PersonEvent.TEST.EventTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventTests" type="JUnit" factoryName="JUnit">
+      <module name="CS3230_OOP_JAVA_UI" />
+      <option name="PACKAGE_NAME" value="PersonEvent.TEST" />
+      <option name="MAIN_CLASS_NAME" value="PersonEvent.TEST.EventTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUIFundamentals.test in CS3230_OOP_JAVA_UI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS3230_OOP_JAVA_UI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUIFundamentals.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GUIFundamentals.test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTests" type="JUnit" factoryName="JUnit">
+      <module name="CSFlex3230" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="PersonEvent.TEST" />
+      <option name="MAIN_CLASS_NAME" value="PersonEvent.TEST.PersonTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/PersonEvent/TEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTests" type="JUnit" factoryName="JUnit">
+      <module name="CSFlex3230" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="PACKAGE_NAME" value="PersonEvent.TEST" />
+      <option name="MAIN_CLASS_NAME" value="PersonEvent.TEST.PersonTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/PersonEvent/TEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CAModule3" />
+      <item itemvalue="Application.PasswordValidatorRedirected" />
+      <item itemvalue="Application.playground" />
+      <item itemvalue="Application.DrawingFrame" />
+      <item itemvalue="JUnit.PersonTests" />
+      <item itemvalue="JUnit.EventTests" />
+      <item itemvalue="JUnit.BouncingObjectSimulatorTest" />
+      <item itemvalue="JUnit.AuctionSystemTest" />
+      <item itemvalue="JUnit.DrawingFrameTest.testDefaultShapeSelection" />
+      <item itemvalue="JUnit.GUIFundamentals.test in CS3230_OOP_JAVA_UI" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AuctionSystemTest" />
+        <item itemvalue="Application.playground" />
+        <item itemvalue="Application.DrawingFrame" />
+        <item itemvalue="JUnit.GUIFundamentals.test in CS3230_OOP_JAVA_UI" />
+        <item itemvalue="JUnit.DrawingFrameTest.testDefaultShapeSelection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="314722da-9671-448e-9dfe-327bb28d9c68" name="Changes" comment="" />
+      <created>1715105650743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715105650743</updated>
+      <workItem from="1715105651769" duration="129000" />
+      <workItem from="1715105790467" duration="29126000" />
+      <workItem from="1715186793389" duration="2699000" />
+      <workItem from="1715203735729" duration="617000" />
+      <workItem from="1715206533784" duration="6043000" />
+      <workItem from="1715288953334" duration="32000" />
+      <workItem from="1715374055667" duration="16267000" />
+      <workItem from="1715452557189" duration="163000" />
+      <workItem from="1715452731918" duration="5386000" />
+      <workItem from="1715459811674" duration="1682000" />
+      <workItem from="1715461523943" duration="190000" />
+      <workItem from="1715562094326" duration="25000" />
+      <workItem from="1715785260301" duration="37271000" />
+      <workItem from="1715885484421" duration="119000" />
+      <workItem from="1715885606516" duration="647000" />
+      <workItem from="1715886267676" duration="8883000" />
+      <workItem from="1715896042550" duration="13349000" />
+      <workItem from="1715992826571" duration="1426000" />
+      <workItem from="1716327889187" duration="77000" />
+      <workItem from="1716408561372" duration="185000" />
+      <workItem from="1716408755005" duration="2265000" />
+      <workItem from="1716411054298" duration="12309000" />
+      <workItem from="1716521197552" duration="27000" />
+      <workItem from="1716590208909" duration="102000" />
+      <workItem from="1716923229962" duration="6286000" />
+      <workItem from="1716939954918" duration="11100000" />
+      <workItem from="1717013360052" duration="61000" />
+      <workItem from="1717033609742" duration="951000" />
+      <workItem from="1717277974317" duration="8532000" />
+      <workItem from="1717354314110" duration="673000" />
+      <workItem from="1717528570440" duration="16000" />
+      <workItem from="1717628578649" duration="5620000" />
+      <workItem from="1717637718578" duration="207000" />
+      <workItem from="1717698883890" duration="6227000" />
+    </task>
+    <task id="LOCAL-00001" summary="Finished TIO1">
+      <option name="closed" value="true" />
+      <created>1715110929659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715110929659</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished Challenge 1.1, awaiting starter code for Challenge 1.2">
+      <option name="closed" value="true" />
+      <created>1715138322437</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715138322437</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finished Challenge 1.2">
+      <option name="closed" value="true" />
+      <created>1715189505150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715189505150</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed Challenge 1.2 (Object is supposed to be a circle, that's why the constant CIRCLE_RADIUS exists, LOL) and added my solutions to some of the zybook activities.">
+      <option name="closed" value="true" />
+      <created>1715216390888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715216390888</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Restructured Repository">
+      <option name="closed" value="true" />
+      <created>1715390666962</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715390666962</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Restructured Repository">
+      <option name="closed" value="true" />
+      <created>1715390688873</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715390688873</updated>
+    </task>
+    <task id="LOCAL-00007" summary="completed most of challenge 2.1 (StockMarketSimulator)">
+      <option name="closed" value="true" />
+      <created>1715390752216</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715390752216</updated>
+    </task>
+    <task id="LOCAL-00008" summary="completed challenge 2 (package StockMarketSimulator &amp;&amp; package PersonEvent)">
+      <option name="closed" value="true" />
+      <created>1715461693764</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715461693764</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Completed Learning Activity 3: Inheritance, Interface and Polymorphism (Package: ShapesAndVehicles)">
+      <option name="closed" value="true" />
+      <created>1715793073634</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715793073634</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Completed Learning Activity 3: Inheritance, Interface and Polymorphism (Package: ShapesAndVehicles)">
+      <option name="closed" value="true" />
+      <created>1715794516819</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715794516819</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Completed Learning Activity 3: Inheritance, Interface and Polymorphism (Package: ShapesAndVehicles)">
+      <option name="closed" value="true" />
+      <created>1715794529250</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715794529250</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Compulsively refactored Learning Activity 3: Inheritance, Interface and Polymorphism (Package: ShapesAndVehicles)">
+      <option name="closed" value="true" />
+      <created>1715794964119</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715794964119</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Completed Challenge Activity 3: Inheritance, Interface and Polymorphism (Package: InheritanceAndInterface), added Try it Out 4.">
+      <option name="closed" value="true" />
+      <created>1715909505024</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715909505024</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Completed Challenge Activity 4">
+      <option name="closed" value="true" />
+      <created>1716590301299</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716590301299</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Finished TIO1" />
+    <MESSAGE value="Finished Challenge 1.1, awaiting starter code for Challenge 1.2" />
+    <MESSAGE value="Finished Challenge 1.2" />
+    <MESSAGE value="Fixed Challenge 1.2 (Object is supposed to be a circle, that's why the constant CIRCLE_RADIUS exists, LOL) and added my solutions to some of the zybook activities." />
+    <MESSAGE value="Restructured Repository" />
+    <MESSAGE value="completed most of challenge 2.1 (StockMarketSimulator)" />
+    <MESSAGE value="completed challenge 2 (package StockMarketSimulator &amp;&amp; package PersonEvent)" />
+    <MESSAGE value="Completed Learning Activity 3: Inheritance, Interface and Polymorphism (Package: ShapesAndVehicles)" />
+    <MESSAGE value="Compulsively refactored Learning Activity 3: Inheritance, Interface and Polymorphism (Package: ShapesAndVehicles)" />
+    <MESSAGE value="Completed Challenge Activity 3: Inheritance, Interface and Polymorphism (Package: InheritanceAndInterface), added Try it Out 4." />
+    <MESSAGE value="Completed Challenge Activity 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Challenge Activity 4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StudentServices/GradeCalculator.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StudentServices/GradeCalculator.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BouncingObject/BouncingObjectSimulatorTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BouncingObject/BouncingObjectSimulatorTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BouncingObject/BouncingObjectSimulatorTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MiscSolutionClasses/ReciprocalSum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MiscSolutionClasses/SumIfNotZeroOrSequentialDupe.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MiscSolutionClasses/SumIfNotZeroOrSequentialDupe.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MiscSolutionClasses/RemoveDuplicateWords.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MiscSolutionClasses/RemoveDuplicateWords.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StockMarketSimulator/StockMarket.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StockMarketSimulator/StockMarket.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PasswordValidator/PasswordValidator.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PasswordValidator/PasswordValidator.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PasswordValidator/PasswordValidator.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PasswordValidator/PasswordValidator.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PasswordValidator/PasswordValidator.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PasswordValidator/PasswordValidator.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CAModule4/UserInput/UserInputValidation.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InventoryAndEvents/Inventory/Inventory.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UserFriendlyGUI/Main/AuctionSystemTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/CAModule4/Library/Library.java</url>
+          <line>97</line>
+          <properties class="CAModule4.Library.Book" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
