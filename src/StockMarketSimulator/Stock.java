@@ -46,5 +46,4 @@ public class Stock {
         return String.format("%s (%s): $%.2f", symbol, companyName,  currentPrice);
     }
 
-    //  TODO add tostring
 }

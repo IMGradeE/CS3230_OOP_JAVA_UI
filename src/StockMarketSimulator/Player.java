@@ -46,7 +46,7 @@ public class Player {
             printActionTaken(false, ACTION_UNSUCCESSFUL, stockToBuy, purchaseQuantity, TOTAL_COSTS_LABEL, cost);
         }
                 // Realistically this would branch to:
-                // TODO a prompt for a quantity which does not:
+                //  a prompt for a quantity which does not:
                 //  exceed the dollar amount a player can afford
                 //  exceed the quantity of shares available for purchase
     }
@@ -72,7 +72,7 @@ public class Player {
             printActionTaken(false, ACTION_UNSUCCESSFUL, stockToSell, sellQuantity, TOTAL_PROFITS_LABEL, profit);
         }
             // Realistically this would branch to:
-            // TODO a prompt for a quantity which does not:
+            //  a prompt for a quantity which does not:
             //  exceed the quantity of shares available to sell
     }
 

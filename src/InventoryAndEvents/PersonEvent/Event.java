@@ -1,14 +1,13 @@
-package PersonEvent.MAIN;
+package InventoryAndEvents.PersonEvent;
 
 import java.awt.geom.Rectangle2D;
 
 public class Event {
-
-    public Event(){
-        x = 0;
-        y = 0;
-        dx = 2;
-        dy = 2;
+    public static final double CIRCLE_RADIUS = 3;
+    private double x, y, dx, dy;
+    private EventType type;
+    public Event(EventType e){
+        type = e;
     }
 
     public void move(Rectangle2D bounds) // Rectangle dimensions are the movement boundaries.
@@ -36,10 +35,6 @@ public class Event {
             this.dy = -this.dy;
         }
     }
-
-    private double x, y, dx, dy;
-    public static final int CIRCLE_RADIUS = 3;
-
 
     public double getX() {
         return x;
@@ -71,5 +66,9 @@ public class Event {
 
     public void setDy(double dy) {
         this.dy = dy;
+    }
+
+    public EventType getType() {
+        return type;
     }
 }
