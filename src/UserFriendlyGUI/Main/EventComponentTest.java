@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import java.awt.*;
-import java.awt.Event;
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -23,7 +22,7 @@ public class EventComponentTest {
     @Test
     public void testConstructorWithDefaultValues() {
         EventComponent defaultComponent = new EventComponent();
-        ArrayList<java.awt.Event> events = defaultComponent.getEvents();
+        ArrayList<Event> events = defaultComponent.getEvents();
 
         // Ensure that the default constructor initializes with 250 lucky and 250 unlucky events
         assertEquals(250, defaultComponent.getNumberOfLuckyEvents());
@@ -34,7 +33,7 @@ public class EventComponentTest {
 
     @Test
     public void testConstructorWithSpecifiedValues() {
-        ArrayList<java.awt.Event> events = eventComponent.getEvents();
+        ArrayList<Event> events = eventComponent.getEvents();
 
         // Ensure that the constructor initializes with the specified number of lucky and unlucky events
         assertEquals(3, eventComponent.getNumberOfLuckyEvents());

@@ -2,16 +2,17 @@ package UserFriendlyGUI.Main;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.Event;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class EventComponent extends JComponent {
-    private ArrayList<java.awt.Event> events;
+    private ArrayList<Event> events;
 
     private int numberOfLuckyEvents;
     private int numberOfUnluckyEvents;
     private int panelWidth = 402;  // 1024 x 625
     private int panelHeight = 402;
+    private static Random random = new Random();
 
     public EventComponent() {
         this(250, 250); // by default, 250 lucky events, 250 unlucky events
@@ -26,8 +27,15 @@ public class EventComponent extends JComponent {
 
         // TODO: create events with random coordinates
 
+        for (int i = 0; i < this.numberOfLuckyEvents; i++) {
+            Event event = new Event(EventType.LUCKY);
+            events.add(event);
+        }
 
-
+        for (int i = 0; i < this.numberOfUnluckyEvents; i++) {
+            Event event = new Event(EventType.UNLUCKY);
+            events.add(event);
+        }
     }
 
     // paint the events the very first time with random coordinates,
@@ -36,11 +44,23 @@ public class EventComponent extends JComponent {
     public void paintComponent(Graphics g)
     {
         super.paintComponent(g);
+        for (Event e : events) {
+            if (e.getType() == EventType.LUCKY) {
+                g.setColor(Color.green);
+            }
+            else if (e.getType() == EventType.UNLUCKY) {
+                g.setColor(Color.red);
+            }
 
-        // TODO: paint all events
-
-
-
+            if (e.getX() == 0 && e.getY() == 0) {
+                e.setX(random.nextDouble(this.panelWidth-1)+1); // ensures that the new coordinate is not 0.
+                e.setY(random.nextDouble(this.panelHeight-1)+1); // it is still possible that a coordinate set will reach (0,0) and be randomized
+            }
+            int x =(int) e.getX();
+            int y =(int) e.getX();
+            int r = (int) e.CIRCLE_RADIUS;
+            g.fillOval(x,y,r,r);
+        }
     }
 
     public int getPanelWidth() {

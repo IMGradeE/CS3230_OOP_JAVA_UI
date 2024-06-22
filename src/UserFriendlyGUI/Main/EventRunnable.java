@@ -20,8 +20,16 @@ public class EventRunnable implements Runnable {
 
     public void run() {
         // TODO:
+        try{
+            start.await();
+            event.move(eventComponent.getBounds());
+            eventComponent.repaint();
+            Thread.sleep(delay);
+        }catch (InterruptedException e){
 
-
+        }finally{
+            finish.countDown();
+        }
     }
 
     public int getDelay() {
